@@ -1,0 +1,23 @@
+.div-etapas
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: pink;
+    width: 25%;
+    height: 92.5%;
+}
+.etapa
+{
+    background: darkcyan;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.etapa h2
+{
+    margin-right: 10px;
+}
