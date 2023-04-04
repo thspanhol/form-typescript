@@ -11,7 +11,7 @@ function Pessoais() {
         <label>Email</label>
         <input type='text'/>
         <label>Número de Telefone</label>
-        <input type='text'/>
+        <input type='number'/>
         <button>Próxima Etapa</button>
     </div>
   )

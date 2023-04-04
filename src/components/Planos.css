@@ -1,0 +1,26 @@
+.planos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+.opções
+{
+    display: flex;
+}
+.opções div
+{
+    margin: 10px 40px;
+}
+.tempo
+{
+    display: flex;
+    margin: 10px 40px;
+    gap: 40px;
+}
+.botões
+{
+    display: flex;
+    gap: 300px;
+}
