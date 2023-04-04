@@ -1,16 +1,11 @@
-import { FunctionComponent } from 'react';
 import './Etapas.css'
 
-type EtapasProps = {
-    trocaTela: Function
-};
-
-function Etapas(props: EtapasProps) {
+function Etapas() {
 
     return (
       <div className='div-etapas'>
 
-        <div className='etapa' onClick={() => props.trocaTela('pessoais')}>
+        <div className='etapa'>
             <h2>01</h2>
             <div>
                 <h4>Etapa 1</h4>
@@ -18,7 +13,7 @@ function Etapas(props: EtapasProps) {
             </div>
         </div>
 
-        <div className='etapa' onClick={() => props.trocaTela('planos')}>
+        <div className='etapa'>
             <h2>02</h2>
             <div>
                 <h4>Etapa 2</h4>
@@ -26,7 +21,7 @@ function Etapas(props: EtapasProps) {
             </div>
         </div>
 
-        <div className='etapa' onClick={() => props.trocaTela('adicionais')}>
+        <div className='etapa'>
             <h2>03</h2>
             <div>
                 <h4>Etapa 3</h4>
@@ -34,7 +29,7 @@ function Etapas(props: EtapasProps) {
             </div>
         </div>
 
-        <div className='etapa' onClick={() => props.trocaTela('confirmar')}>
+        <div className='etapa'>
             <h2>04</h2>
             <div>
                 <h4>Etapa 4</h4>
