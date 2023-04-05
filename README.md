@@ -1,12 +1,12 @@
-# ⚜️ Projeto Testes Unitários com React ⚜️
+# ⚜️ Projeto Formulário com Typescript ⚜️
 
-O projeto foi desenvolvido com o intuito de aprender a usar e manipular um banco de dados pelo Firebase, desenvolvendo uma aplicação de lista de tarefas.
+O projeto foi desenvolvido com o objetivo de praticar o uso de Typescript, desenvolvendo um formulário em etapas.
 
 ### ⚜️ Instalação
 
 Clone o repositório com o comando:
 ```
-git clone https://github.com/thspanhol/to-do.git
+git clone https://github.com/thspanhol/form-typescript.git
 ```
 
 Depois entre na pasta do projeto e instale as dependências com o comando:
@@ -16,17 +16,16 @@ npm install
 
 Após isso, para abrir a aplicação basta usar o comando:
 ```
-npm start
+npm run dev
 ```
 ### ⚜️ Como Utilizar
 
-Ao abrir a aplicação será renderizada uma tela de login onde podemos inserir um nome de usuário e senha. Essas duas informações irão compor uma chave de acesso a um banco de dados próprio no Firebase, e nos direcionará para a tela da lista de tarefas. Nessa página tarefas poderão ser adicionadas, as mesmas ficarão armazenadas no banco de dados. Dessa forma, é possível retomar o acesso a elas de novo futuramente até mesmo em outro aparelho, desde que use o mesmo nome de usuário e senha.
+Ao abrir a aplicação será renderizada uma tela com os campos nome, email e telefone que devem ser preenchidos para que se possa avançar para a próxima etapa. Na etapa seguinte o usuário deverá selecionar um plano e uma modalidade de assinatura, depois disso ainda podem ser adicionados serviços extras ao plano e por fim o valor total é descrito para que o usuário confirme a assinatura.
 
 ## ⚜️ Construído com
 
-* React - O framework usado para desenvolver os componentes JSX
-* CSS Modules - Para estilização da página
-* Firebase - Usado para criar e manipular o banco de dados
+* React - O framework usado para desenvolver os componentes TSX
+* Vite - Para o build da aplicação
 
 ## ⚜️ Autor
 
