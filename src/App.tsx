@@ -13,7 +13,7 @@ function App() {
 
   const [nome, setNome] = useState<string>('');
   const [email, setEmail] = useState<string>('');
-  const [telefone, setTelefone] = useState<number | string>('');
+  const [telefone, setTelefone] = useState<number>(777);
 
   const [plano, setPlano] = useState<string>('');
   const [modalidade, setModalidade] = useState<string>('Mensal');
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className='background'>
       <div className='main'>
-        <Etapas />
+        {tela !== 'finalizado' && <Etapas tela={tela} />}
         {tela === 'pessoais' && <Pessoais trocaTela={trocaTela} setNome={setNome} setEmail={setEmail} setTelefone={setTelefone} nome={nome} email={email} telefone={telefone}/>}
         {tela === 'planos' && <Planos trocaTela={trocaTela} setPlano={setPlano} trocaModalidade={trocaModalidade} modalidade={modalidade} plano={plano}/>}
         {tela === 'adicionais' && <Adicionais trocaTela={trocaTela} adicionaExtras={adicionaExtras} extras={extras} modalidade={modalidade} />}

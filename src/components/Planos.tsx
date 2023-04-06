@@ -19,35 +19,37 @@ function Planos(props: PlanosProps) {
         <h1>Selecione seu Plano</h1>
         <p>Você pode escolher pagar seu plano de forma mensal ou anual.</p>
         <div className='opções'>
-            <div onClick={() => props.setPlano('Simples')}>
-                <h2>01</h2>
-                <h3>Simples</h3>
-                <h4>{`R$ ${valor1},00`}</h4>
+            <div className={props.plano === 'Simples' ? 'plano-escolhido' : 'plano-padrão'} onClick={() => props.setPlano('Simples')}>
+                <h4>Plano</h4>
+                <h2>Simples</h2>
+                <h3>{`R$ ${valor1},00`}</h3>
+                {props.modalidade === 'Anual' && <h6>2 meses grátis</h6>}
             </div>
-            <div onClick={() => props.setPlano('Padrão')}>
-                <h2>02</h2>
-                <h3>Padrão</h3>
-                <h4>{`R$ ${valor2},00`}</h4>
+            <div className={props.plano === 'Padrão' ? 'plano-escolhido' : 'plano-padrão'} onClick={() => props.setPlano('Padrão')}>
+                <h4>Plano</h4>
+                <h2>Padrão</h2>
+                <h3>{`R$ ${valor2},00`}</h3>
+                {props.modalidade === 'Anual' && <h6>2 meses grátis</h6>}
             </div>
-            <div onClick={() => props.setPlano('Avançado')}>
-                <h2>03</h2>
-                <h3>Avançado</h3>
-                <h4>{`R$ ${valor3},00`}</h4>
+            <div className={props.plano === 'Avançado' ? 'plano-escolhido' : 'plano-padrão'} onClick={() => props.setPlano('Avançado')}>
+                <h4>Plano</h4>
+                <h2>Avançado</h2>
+                <h3>{`R$ ${valor3},00`}</h3>
+                {props.modalidade === 'Anual' && <h6>2 meses grátis</h6>}
             </div>
         </div>
         <div className='tempo'>
-            <h3>Mensal</h3>
-            <button onClick={() => props.trocaModalidade()}>Teste</button>
-            <h3>Anual</h3>
+            <button className={props.modalidade === 'Mensal' ? 'escolhido-btn' : 'padrão-btn'} onClick={() => props.trocaModalidade()}>Assinatura Mensal</button>
+            <button className={props.modalidade === 'Anual' ? 'escolhido-btn' : 'padrão-btn'} onClick={() => props.trocaModalidade()}>Assinatura Anual</button>
         </div>
-        <div className='botões'>
-          <button onClick={() => props.trocaTela('pessoais')}>Voltar</button>
-          <button onClick={() => {
+          <button className='voltar-button' onClick={() => props.trocaTela('pessoais')}>Voltar</button>
+          <button className='próximo-button' onClick={() => {
             if (props.plano !== '') {
               props.trocaTela('adicionais')
+            } else {
+              alert('Por favor, selecione seu plano.');
             };
-          }}>Próxima Etapa</button>
-        </div>
+          }}>Próximo Passo</button>
     </div>
   )
 }

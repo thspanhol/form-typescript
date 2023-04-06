@@ -4,21 +4,67 @@
     flex-direction: column;
     justify-content: center;
 
-    background: pink;
-    width: 25%;
-    height: 92.5%;
+    align-items: center;
+
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    width: 27.5%;
+    height: 95%;
+
+    border-radius: 15px;
 }
 .etapa
 {
-    background: darkcyan;
+    /* background: darkcyan; */
+    color: whitesmoke;
+    color: #252525;
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
 }
 .etapa h2
 {
     margin-right: 10px;
+    border: 2px solid #252525;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+.etapa div h4
+{
+    color: gray;
+}
+.selecionado
+{
+    /* background: darkcyan; */
+    color: whitesmoke;
+    color: #252525;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+}
+.selecionado h2
+{
+    margin-right: 10px;
+    border: 2px solid #252525;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background: #252525;
+    color: rgba(255,145,83,1);
+}
+.selecionado div h4
+{
+    color: gray;
 }
