@@ -1,140 +1,122 @@
-.confirmar
-{
-    display: flex;
-    flex-direction: column;
-    width: 67.5%;
-    height: 80%;
+.confirmar {
+  display: flex;
+  flex-direction: column;
+  width: 67.5%;
+  height: 80%;
 }
-.confirmar h1, p
-{
-    margin-left: 90px;
+.confirmar h1,
+p {
+  margin-left: 90px;
 }
-.confirmar p
-{
-    width: 530px;
+.confirmar p {
+  width: 530px;
 }
-.escolhas
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 85%;
-    margin-left: 60px;
+.escolhas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  margin-left: 60px;
 }
-.escolhas div
-{
-    display: flex;
-    align-items: center;
-    margin: 20px;
-    width: 100%;
-    justify-content: space-between;
+.escolhas div {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  justify-content: space-between;
 }
-.escolhas div p
-{
-margin: 0;
+.escolhas div p {
+  margin: 0;
 }
-.plano-final
-{
-    border: 2px solid rgba(255,145,83,1);
-    justify-content: center;
-    border-radius: 15px;
-    padding: 10px;
-    background: #252525;
+.plano-final {
+  border: 2px solid rgba(255, 145, 83, 1);
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+  background: #252525;
 }
-.plano-final h3
-{
-    color: whitesmoke;
+.plano-final h3 {
+  color: whitesmoke;
 }
-.plano-final h3:first-child
-{
-    color: rgba(255,145,83,1);
+.plano-final h3:first-child {
+  color: rgba(255, 145, 83, 1);
 }
-.plano-final h6
-{
-    color: rgba(255,209,67,1);
+.plano-final h6 {
+  color: rgba(255, 209, 67, 1);
 }
-.extra-final
-{
-    border: 2px solid rgba(255,145,83,1);
-    justify-content: center;
-    border-radius: 15px;
-    padding: 10px;
-    background: #252525;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.extra-final {
+  border: 2px solid rgba(255, 145, 83, 1);
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+  background: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.extra-final h6
-{
-    margin-left: -300px;
-    color: rgba(255,209,67,1);
+.extra-final h6 {
+  margin-left: -300px;
+  color: rgba(255, 209, 67, 1);
 }
 
-.extra-final p
-{
-    color: rgba(255,145,83,1);
+.extra-final p {
+  color: rgba(255, 145, 83, 1);
 }
-.extra-final h3
-{
-    color: whitesmoke;
+.extra-final h3 {
+  color: whitesmoke;
 }
-.valor-final
-{
-    max-width: 570px;
+.valor-final {
+  max-width: 570px;
 }
-.valor-final p
-{
-    color: whitesmoke;
+.valor-final p {
+  color: whitesmoke;
 }
-.valor-final h2
-{
-    color: rgba(255,209,67,1);
+.valor-final h2 {
+  color: rgba(255, 209, 67, 1);
 }
-.pro-button
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-
-    margin-top: 508px;
-    margin-left: 390px;
-    width: 170px;
-    height: 40px;
-    border-radius: 15px;
-    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
-    font-weight: bold;
-    transition: 0.2s;
-    cursor: pointer;
-    position: absolute;
+.pro-button {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-top: 508px;
+  margin-left: 390px;
+  width: 170px;
+  height: 40px;
+  border-radius: 15px;
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  position: absolute;
 }
-.pro-button:hover
-{
-    background: #252525;
-    color: rgba(255,145,83,1);
-    transition: 0.5s;
+.pro-button:hover {
+  background: #252525;
+  color: rgba(255, 145, 83, 1);
+  transition: 0.5s;
 }
-.voltar-button
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-
-    margin-top: 508px;
-    margin-left: 100px;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    background: none;
-    color: rgba(255,145,83,1);
-    border: 2px solid rgba(255,145,83,1);
-    font-weight: bold;
-    transition: 0.2s;
-    cursor: pointer;
-    position: absolute;
+.voltar-button {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-top: 508px;
+  margin-left: 100px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background: none;
+  color: rgba(255, 145, 83, 1);
+  border: 2px solid rgba(255, 145, 83, 1);
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  position: absolute;
 }
-.escolhas .nenhum p
-{
-    margin-left: 35px;
-    color: black;
+.escolhas .nenhum p {
+  margin-left: 35px;
+  color: black;
 }

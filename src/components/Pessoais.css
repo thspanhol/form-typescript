@@ -1,67 +1,62 @@
-.pessoais
-{
-    display: flex;
-    flex-direction: column;
-    
-    width: 67.5%;
-    height: 80%;
+.pessoais {
+  display: flex;
+  flex-direction: column;
+  width: 67.5%;
+  height: 80%;
 }
-.pessoais h1, p, label, input
-{
-    margin-left: 90px;
+.pessoais h1,
+p,
+label,
+input {
+  margin-left: 90px;
 }
-.pessoais p
-{
-    margin-bottom: 10px;
+.pessoais p {
+  margin-bottom: 10px;
 }
-.pessoais label
-{
-    margin-top: 20px;
-    font-weight: bold;
+.pessoais label {
+  margin-top: 20px;
+  font-weight: bold;
 }
-.pessoais input
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-
-    width: 455px;
-    height: 40px;
-    font-weight: bold;
-    padding: 10px;
-    background: #252525;
-    border-radius: 15px;
-    color: whitesmoke;
-    border: 2px solid rgba(255,145,83,1);
+.pessoais input {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  width: 455px;
+  height: 40px;
+  font-weight: bold;
+  padding: 10px;
+  background: #252525;
+  border-radius: 15px;
+  color: whitesmoke;
+  border: 2px solid rgba(255, 145, 83, 1);
 }
-.pessoais button
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-
-    margin-top: 170px;
-    margin-left: 390px;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
-    font-weight: bold;
-    transition: 0.2s;
-    cursor: pointer;
+.pessoais button {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-top: 170px;
+  margin-left: 390px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
 }
-.pessoais button:hover
-{
-    background: #252525;
-    color: rgba(255,145,83,1);
-    transition: 0.5s;
+.pessoais button:hover {
+  background: #252525;
+  color: rgba(255, 145, 83, 1);
+  transition: 0.5s;
 }
-.pessoais input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
+.pessoais input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
-.pessoais input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
-
+.pessoais input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
 }

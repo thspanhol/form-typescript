@@ -1,147 +1,137 @@
-.adicionais
-{
-    display: flex;
-    flex-direction: column;
-    width: 67.5%;
-    height: 80%;
+.adicionais {
+  display: flex;
+  flex-direction: column;
+  width: 67.5%;
+  height: 80%;
 }
-.adicionais h1, p
-{
-    margin-left: 90px;
+.adicionais h1,
+p {
+  margin-left: 90px;
 }
-.extras
-{
-    margin-top: 4%;
+.extras {
+  margin-top: 4%;
 }
-.opção-adicional
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgba(255,145,83,1);
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 3%;
-    padding: 10px;
-    border-radius: 15px;
-
-    background: #484848;
-    border: 2px solid rgba(255,145,83,1);
-    color: whitesmoke;
+.opção-adicional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 145, 83, 1);
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  padding: 10px;
+  border-radius: 15px;
+  background: #484848;
+  border: 2px solid rgba(255, 145, 83, 1);
+  color: whitesmoke;
 }
-.opção-adicional:hover
-{
-    background: #252525;
+.opção-adicional:hover {
+  background: #252525;
 }
-.opção-adicional h4
-{
-    width: 70px;
+.opção-adicional h4 {
+  width: 70px;
 }
-.opção-adicional div
-{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 400px;
+.opção-adicional div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
 }
-.opção-adicional div h3
-{
-    color: rgba(255,145,83,1);
+.opção-adicional div h3 {
+  color: rgba(255, 145, 83, 1);
 }
-.opção-adicional div h6
-{
-    color: rgba(255,209,67,1);
+.opção-adicional div h6 {
+  color: rgba(255, 209, 67, 1);
 }
-.opção-adicional p
-{
-    margin: 0;
+.opção-adicional p {
+  margin: 0;
 }
-.opção-adicional, .opção-adicional div, .opção-adicional div h3, .opção-adicional div h6, .opção-adicional div p, .opção-adicional h4
-{
-    cursor: pointer;
+.opção-adicional,
+.opção-adicional div,
+.opção-adicional div h3,
+.opção-adicional div h6,
+.opção-adicional div p,
+.opção-adicional h4 {
+  cursor: pointer;
 }
-.extra-escolhido
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgba(255,145,83,1);
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 3%;
-    padding: 10px;
-    border-radius: 15px;
-
-    background: #252525;
-    border: 2px solid rgba(255,145,83,1);
-    color: whitesmoke;
+.extra-escolhido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 145, 83, 1);
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  padding: 10px;
+  border-radius: 15px;
+  background: #252525;
+  border: 2px solid rgba(255, 145, 83, 1);
+  color: whitesmoke;
 }
-.extra-escolhido h4
-{
-    width: 70px;
+.extra-escolhido h4 {
+  width: 70px;
 }
-.extra-escolhido div
-{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 400px;
+.extra-escolhido div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
 }
-.extra-escolhido div h3
-{
-    color: rgba(255,145,83,1);
+.extra-escolhido div h3 {
+  color: rgba(255, 145, 83, 1);
 }
-.extra-escolhido div h6
-{
-    color: rgba(255,209,67,1);
+.extra-escolhido div h6 {
+  color: rgba(255, 209, 67, 1);
 }
-.extra-escolhido p
-{
-    margin: 0;
+.extra-escolhido p {
+  margin: 0;
 }
-.extra-escolhido, .extra-escolhido div, .extra-escolhido div h3, .extra-escolhido div h6, .extra-escolhido div p, .extra-escolhido h4
-{
-    cursor: pointer;
+.extra-escolhido,
+.extra-escolhido div,
+.extra-escolhido div h3,
+.extra-escolhido div h6,
+.extra-escolhido div p,
+.extra-escolhido h4 {
+  cursor: pointer;
 }
-.próximo-button
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-
-    margin-top: 508px;
-    margin-left: 390px;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
-    font-weight: bold;
-    transition: 0.2s;
-    cursor: pointer;
-    position: absolute;
+.próximo-button {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-top: 508px;
+  margin-left: 390px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  position: absolute;
 }
-.próximo-button:hover
-{
-    background: #252525;
-    color: rgba(255,145,83,1);
-    transition: 0.5s;
+.próximo-button:hover {
+  background: #252525;
+  color: rgba(255, 145, 83, 1);
+  transition: 0.5s;
 }
-.voltar-button
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-
-    margin-top: 508px;
-    margin-left: 100px;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    background: none;
-    color: rgba(255,145,83,1);
-    border: 2px solid rgba(255,145,83,1);
-    font-weight: bold;
-    transition: 0.2s;
-    cursor: pointer;
-    position: absolute;
+.voltar-button {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-top: 508px;
+  margin-left: 100px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background: none;
+  color: rgba(255, 145, 83, 1);
+  border: 2px solid rgba(255, 145, 83, 1);
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  position: absolute;
 }
