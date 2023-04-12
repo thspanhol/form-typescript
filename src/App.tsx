@@ -8,7 +8,6 @@ import Pessoais from "./components/Pessoais";
 import Planos from "./components/Planos";
 
 function App() {
-  
   const [tela, setTela] = useState<string>("pessoais");
   const [nome, setNome] = useState<string>("");
   const [email, setEmail] = useState<string>("");

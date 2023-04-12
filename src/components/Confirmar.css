@@ -120,3 +120,33 @@ p {
   margin-left: 35px;
   color: black;
 }
+@media screen and (max-width: 800px) {
+  .confirmar {
+    justify-content: center;
+    width: 75%;
+    margin-left: -70px;
+    margin-top: -120px;
+    margin-right: 40px;
+  }
+  .confirmar p {
+    width: 200px;
+  }
+  .escolhas div h3 {
+    font-size: small;
+  }
+  .escolhas div h6 {
+    display: none;
+  }
+  .escolhas div {
+    width: 250px;
+    height: 50px;
+    margin: 5px 0 5px 43px;
+  }
+  .pro-button {
+    margin-left: 110px;
+    margin-top: 525px;
+  }
+  .nenhum p {
+    font-size: 13px;
+  }
+}

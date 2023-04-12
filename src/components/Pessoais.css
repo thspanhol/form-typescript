@@ -60,3 +60,20 @@ input {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+@media screen and (max-width: 800px) {
+  .pessoais {
+    justify-content: center;
+    width: 75%;
+    margin-left: -70px;
+    margin-top: -70px;
+    margin-right: 40px;
+  }
+  .pessoais input {
+    width: 70%;
+    height: 40px;
+  }
+  .pessoais button {
+    margin-top: 20px;
+    margin-left: 115px;
+  }
+}

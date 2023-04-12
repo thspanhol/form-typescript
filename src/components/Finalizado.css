@@ -25,3 +25,11 @@
 .finalizado h2 {
   font-size: xx-large;
 }
+@media screen and (max-width: 800px) {
+  .finalizado {
+    width: 90%;
+  }
+  .finalizado h3 {
+    width: 95%;
+  }
+}

@@ -147,3 +147,56 @@ p {
   cursor: pointer;
   position: absolute;
 }
+@media screen and (max-width: 800px) {
+  .planos {
+    justify-content: center;
+    width: 75%;
+    margin-left: -70px;
+    margin-top: -120px;
+    margin-right: 40px;
+  }
+  .opções {
+    flex-direction: column;
+    margin-left: 75px;
+  }
+  .plano-padrão {
+    flex-direction: row;
+    height: 50px;
+    width: 220px;
+    justify-content: space-around;
+  }
+  .plano-padrão h4,
+  .plano-padrão h2,
+  .plano-padrão h3 {
+    font-size: small;
+  }
+  .plano-padrão h6 {
+    display: none;
+  }
+  .plano-escolhido {
+    flex-direction: row;
+    height: 50px;
+    width: 220px;
+    justify-content: space-around;
+  }
+  .plano-escolhido h4,
+  .plano-escolhido h2,
+  .plano-escolhido h3 {
+    font-size: small;
+  }
+  .plano-escolhido h6 {
+    display: none;
+  }
+  .tempo button {
+    height: 45px;
+  }
+  .próximo-button {
+    margin-top: 525px;
+    margin-left: 120px;
+    width: 151px;
+  }
+  .voltar-button {
+    margin-top: 625px;
+    margin-left: 120px;
+  }
+}

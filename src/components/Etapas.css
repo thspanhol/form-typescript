@@ -60,3 +60,24 @@
 .selecionado div h4 {
   color: gray;
 }
+@media screen and (max-width: 800px) {
+  .selecionado div {
+    display: none;
+  }
+  .etapa div {
+    display: none;
+  }
+  .etapa {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+  }
+  .selecionado {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+  }
+  .div-etapas {
+    height: 90%;
+  }
+}

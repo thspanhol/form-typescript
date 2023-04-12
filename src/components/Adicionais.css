@@ -135,3 +135,30 @@ p {
   cursor: pointer;
   position: absolute;
 }
+@media screen and (max-width: 800px) {
+  .adicionais {
+    justify-content: center;
+    width: 75%;
+    margin-left: -70px;
+    margin-top: -120px;
+    margin-right: 40px;
+  }
+  .opção-adicional {
+    height: 70px;
+    width: 245px;
+    margin-left: 76.5px;
+  }
+  .opção-adicional div h3,
+  .opção-adicional div p {
+    font-size: small;
+  }
+  .extra-escolhido {
+    height: 70px;
+    width: 245px;
+    margin-left: 76.5px;
+  }
+  .extra-escolhido div h3,
+  .extra-escolhido div p {
+    font-size: small;
+  }
+}
