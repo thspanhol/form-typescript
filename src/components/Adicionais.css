@@ -116,6 +116,7 @@ p {
 .próximo-button:hover {
   background: #252525;
   color: rgba(255, 145, 83, 1);
+  border: 2px solid rgba(255, 145, 83, 1);
   transition: 0.5s;
 }
 .voltar-button {
@@ -127,7 +128,7 @@ p {
   width: 150px;
   height: 40px;
   border-radius: 15px;
-  background: none;
+  background: #252525;
   color: rgba(255, 145, 83, 1);
   border: 2px solid rgba(255, 145, 83, 1);
   font-weight: bold;

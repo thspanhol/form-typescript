@@ -20,18 +20,21 @@ function Pessoais(props: PessoaisProps) {
       <label>Nome</label>
       <input
         type="text"
+        spellCheck="false"
         onChange={(e) => props.setNome(e.target.value)}
         value={props.nome}
       />
       <label>Email</label>
       <input
         type="text"
+        spellCheck="false"
         onChange={(e) => props.setEmail(e.target.value)}
         value={props.email}
       />
       <label>Número de Telefone</label>
       <input
         type="number"
+        spellCheck="false"
         onChange={(e) => props.setTelefone(e.target.value)}
         value={props.telefone === 777 ? "" : props.telefone}
       />

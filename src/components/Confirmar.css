@@ -9,7 +9,7 @@ p {
   margin-left: 90px;
 }
 .confirmar p {
-  width: 530px;
+  width: 450px;
 }
 .escolhas {
   display: flex;
@@ -22,7 +22,7 @@ p {
 .escolhas div {
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: 14px;
   width: 100%;
   justify-content: space-between;
 }
@@ -69,11 +69,8 @@ p {
 .valor-final {
   max-width: 570px;
 }
-.valor-final p {
-  color: whitesmoke;
-}
 .valor-final h2 {
-  color: rgba(255, 209, 67, 1);
+  color: rgba(255, 145, 83, 1);
 }
 .pro-button {
   box-shadow: 0 0 0 0;
@@ -97,6 +94,7 @@ p {
 .pro-button:hover {
   background: #252525;
   color: rgba(255, 145, 83, 1);
+  border: 2px solid rgba(255, 145, 83, 1);
   transition: 0.5s;
 }
 .voltar-button {
@@ -108,7 +106,7 @@ p {
   width: 150px;
   height: 40px;
   border-radius: 15px;
-  background: none;
+  background: #252525;
   color: rgba(255, 145, 83, 1);
   border: 2px solid rgba(255, 145, 83, 1);
   font-weight: bold;
@@ -139,8 +137,11 @@ p {
   }
   .escolhas div {
     width: 250px;
-    height: 50px;
+    height: 40px;
     margin: 5px 0 5px 43px;
+  }
+  .escolhas div p {
+    font-size: small;
   }
   .pro-button {
     margin-left: 110px;
